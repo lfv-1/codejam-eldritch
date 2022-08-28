@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "create-rss-app": "^0.2.4"
+  },
+  "scripts": {
+    "start": "rss-scripts start",
+    "build": "rss-scripts build"
+  },
+  "devDependencies": {
+    "rss-scripts": "^0.2.4"
+  }
+}
