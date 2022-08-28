@@ -11,8 +11,6 @@ const start = document.querySelector('.start__game');
 const counterContainer = document.querySelector('.desc__container');
 let counter;
 
-
-
 let flag = true;
 let flag2= true;
 
@@ -147,8 +145,6 @@ let easyBlue = []
 let normBlue = []
 let hardBlue = []
 
-
-
 function mixCardImage(){
     for(let i = 0; i<cardsDataBlue.length;i++){
         if(cardsDataBlue[i].difficulty == 'normal'){
@@ -204,7 +200,6 @@ function randomNorm(){
 function randomHard(){
     return Math.floor(Math.random() * hard.length);
 }
-
 
 function veryEasy(){
     const card = document.querySelector('.card');
